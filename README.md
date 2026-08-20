@@ -1,7 +1,7 @@
 # KnowledgeGraph
 Summary of analysis done till date.
 
-# Knowledge Graphs: What to Build, and How Much to Spend
+# Knowledge Graphs: What to Build, and How
 
 ### Where graphs earn their place in a reporting-led data landscape
 
