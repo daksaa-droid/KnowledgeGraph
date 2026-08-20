@@ -207,29 +207,7 @@ This is not a fringe position. LinkedIn's own account of building DataHub notes 
 
 ---
 
-## 11. How much to invest: staged funding with stop conditions
-
-Fund stages, not a programme. Each stage carries an exit question, and the answer decides whether the next is released.
-
-**Stage 0. Use what already exists. Weeks, near-zero cost.**
-Catalog lineage, BI tool lineage, information schema, query history. Exit question: is the missing thing relationship data, or agreement? Most estates find the second, in which case the money goes to items 1 and 2 of the stack and the graph question defers a quarter with nothing lost.
-
-**Stage 1. The seed, plus relationship metadata as tables. One to two people, one quarter.**
-The asserted minimum from section 10, held alongside harvested join paths, metric-to-table mapping, ownership and lineage in the lakehouse. No graph database. Exit question: which real queries did this fail to answer at acceptable cost, and how often were they asked? Log them. That log is the entire business case for stage 2, and if it stays short, stop here permanently. Stopping here is a successful outcome, not a failed programme.
-
-**Stage 2. Graph engine, metadata grain only, one named use case. Funded only against the stage 1 log.**
-Sized to metadata, reference and master data. Not instance data. Exit question: is the use case in production and used weekly by a named team?
-
-**Stage 3. Second domain, shared vocabulary, cross-domain entities.**
-Released only when two or more domains have independently asked for the same entity. Never in anticipation.
-
-**Rough shape of the spend.** Given ten units of budget for fixing data, something close to four belongs with definitions, ownership and process, three with the semantic layer, two with relationship metadata, and one with the graph. The graph share should be the last funded and the first cut. If it is the largest line in a proposal, the proposal is describing a different problem.
-
-**Stop conditions are worth writing down at the start**, because they are impossible to agree later: the graph duplicates data the semantic layer already governs; nobody outside the platform team has queried it in a month; the ontology has grown faster than the systems it describes; the traversal log from stage 1 stayed short.
-
----
-
-## 12. What this means in a Power BI and spreadsheet estate
+## 11. What this means in a Power BI and spreadsheet estate
 
 **Reporting tools should never query the graph.** The useful patterns sit upstream:
 
@@ -246,7 +224,7 @@ Released only when two or more domains have independently asked for the same ent
 
 ---
 
-## 13. Scope: how much of an organisation belongs in the graph
+## 12. Scope: how much of an organisation belongs in the graph
 
 The instinct that an organisation-wide graph holds too much is right, but the problem is grain rather than breadth.
 
@@ -260,7 +238,7 @@ The instinct that an organisation-wide graph holds too much is right, but the pr
 
 ---
 
-## 14. The architecture that holds
+## 13. The architecture that holds
 
 Beside the warehouse, not on top of it.
 
@@ -273,7 +251,7 @@ One rule matters more than the rest. **When an agent needs a number, it calls th
 
 ---
 
-## 15. Questions worth asking before funding a build
+## 14. Questions worth asking before funding a build
 
 - What in this proposal could not be done with relational metadata and certified metric views?
 - Which named team asks a traversal question today, how often, and what do they do instead now?
@@ -286,7 +264,7 @@ One rule matters more than the rest. **When an agent needs a number, it calls th
 
 ---
 
-## 16. Bottom line
+## 15. Bottom line
 
 A knowledge graph supplements a data landscape. In a landscape whose primary job is reporting and governed metrics, it cannot be the core that solves the data problems, because that core is not a storage technology at all. It is agreed definitions, named owners and a process that obliges people to use them. A graph sits downstream of that, and so does a common data model, and so does a metric view.
 
