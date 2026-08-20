@@ -3,7 +3,7 @@ Summary of analysis done till date.
 
 # Knowledge Graphs: What to Build, and How Much to Spend
 
-### Where graphs earn their place in a reporting-led data landscape, and how to size the investment
+### Where graphs earn their place in a reporting-led data landscape
 
 ---
 
