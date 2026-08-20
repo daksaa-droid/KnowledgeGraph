@@ -23,8 +23,6 @@ The short answers, stated up front so the rest can be checked against them:
 
 **A meaningful part of what a graph needs cannot be harvested at all.** Section 10 lists what has to be asserted by people first. That work is neither optional nor automatable.
 
-**The right initial investment is small and evidence-gated.** Section 11 proposes a staged shape with explicit stop conditions, rather than a programme budget agreed once and defended afterwards.
-
 There is a lot of marketing in this space at the moment, and much of it aims at the gap between what a graph demonstrably does and what "solving your data problems" is taken to mean. Most of what follows is about that gap.
 
 ---
